@@ -24,14 +24,14 @@ body{
     padding: 10px;
 }
 .cellAside{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-column: 3 / 4 ;
+    grid-row: 2 / 4;
     background-color: red;
     padding: 10px;
 }
 .cellfoot{
     grid-column: 1 / 4;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
 }
 .left{
     margin-right: 5%;
@@ -69,3 +69,18 @@ a:active{
     text-align:right;
     color:black;
 }
+.photo1{
+    width:100%;
+}
+.ac{
+    margin: 2%;
+    padding: 5px;
+    padding-bottom:0%;
+    border: black;
+    border-style:solid;
+}
+figure{
+    width: fit-content;
+    width: 50%;
+}
+    
