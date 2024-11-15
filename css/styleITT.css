@@ -86,3 +86,6 @@ figure {
     width: fit-content;
     float: left;
 }
+.sideList{
+    list-style-type: disc;
+}
