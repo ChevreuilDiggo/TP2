@@ -70,19 +70,19 @@ footer{
     grid-row-end:5;
     grid-column-end:1 ;
     grid-column-start:4;
+    margin-top:450px
 }
 .realisation{
     text-align:right;
     color:black;
 }
 .spin:hover{
-    text-align:center;
     animation-name: spin;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-duration: 3s;
 }
 @keyframes spin{
-    from { transform: rotateY(0deg); }
-    to { transform: rotateY(-360deg); }
+    from { transform: rotatex(0deg); }
+    to { transform: rotatex(-360deg); }
 }
