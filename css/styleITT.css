@@ -12,10 +12,11 @@ header{
     grid-column: 1 / 4;
     padding: 10px;
 }
-body{
+body, html{
     background-color: #fcfcfc;
     margin:0%;
     font-size: 14px;
+    height:100%;
 }
 
 .cellMain{
