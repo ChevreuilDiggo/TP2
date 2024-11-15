@@ -24,7 +24,7 @@ body{
     padding: 10px;
 }
 .cellAside{
-    background-color: red;
+    background-color: rgb(255, 204, 0);
     padding: 10px;
     grid-column-start: 3;
     grid-column-end: 4;
@@ -49,7 +49,7 @@ a{
     width:max-content
 }
 footer{
-    background-color: darkgray;
+    background-color: rgb(200, 53, 0);
     padding: 10px;
 }
 a:link{
