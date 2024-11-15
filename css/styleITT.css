@@ -1,0 +1,88 @@
+.grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr;
+}
+header{
+    background-color: black;
+    color: lightgray;
+    grid-row: 1;
+    height: 35px;
+    grid-row: 1;
+    grid-column: 1 / 4;
+    padding: 10px;
+}
+body{
+    background-color: #fcfcfc;
+    margin:0%;
+    font-size: 14px;
+}
+
+.cellMain{
+    grid-column-start:1;
+    grid-column-end: 3;
+    padding: 10px;
+}
+.cellAside{
+    background-color: red;
+    padding: 10px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.cellfoot{
+    grid-column: 1 / 4;
+    grid-row: 4 / 4;
+}
+.left{
+    display: flex;
+    gap: 15px;
+}
+.right{
+    display: flex;
+    gap: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    width:max-content
+}
+footer{
+    background-color: darkgray;
+    padding: 10px;
+}
+a:link{
+    text-decoration: none;
+    color: lightgray;
+}
+a:visited{
+    text-decoration: none;
+    color: lightgray;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(0,0,230);
+}
+a:active{
+    text-decoration: none;
+}
+.source{
+    text-align:left;
+    color:black;
+}
+.realisation{
+    text-align:right;
+    color:black;
+}
+img{
+    max-width: 350px;
+    margin: auto;
+}
+figure {
+    background-color: white;
+    border: solid black 1px;
+    padding: 10px;
+    width: fit-content;
+    float: left;
+}
